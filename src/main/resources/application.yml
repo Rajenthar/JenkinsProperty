@@ -1,0 +1,9 @@
+jenkins:
+  property1:
+    sub1: sub-property1
+    sub2: sub-property2
+    sub3: sub-property3
+  property2: property2
+
+test:
+  property: test-property

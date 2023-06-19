@@ -19,6 +19,6 @@ public class MasterDataProperties {
     @Value("${jenkins.property2}")
     private String property2;
 
-    @Value("${test.property}")
-    private String test;
+    // @Value("${test.property}")
+    // private String test;
 }

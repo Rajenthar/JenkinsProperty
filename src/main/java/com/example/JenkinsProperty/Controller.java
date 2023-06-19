@@ -15,6 +15,7 @@ public class Controller {
     @ResponseStatus(HttpStatus.CREATED)
     @GetMapping(path = "/properties")
     public String getProperties() {
-        return new PropertyModel(masterDataProperties.getSub1(), masterDataProperties.getSub2(), masterDataProperties.getSub3(), masterDataProperties.getProperty2(), masterDataProperties.getTest()).toString();
+        return null;
+        // return new PropertyModel(masterDataProperties.getSub1(), masterDataProperties.getSub2(), masterDataProperties.getSub3(), masterDataProperties.getProperty2(), masterDataProperties.getTest()).toString();
     }
 }

@@ -5,5 +5,6 @@ jenkins:
     sub3: sub-property3
   property2: property2
 
-test:
-  property: test-property
+environment:
+  property1: ${YOUR_PROPERTY_VALUE_1}
+  property2: ${YOUR_PROPERTY_VALUE_2}
